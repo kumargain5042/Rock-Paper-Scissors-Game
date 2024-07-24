@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color:aqua;
+    color:black ;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;    /*object-fit:cover (it is used to set the picture in proper manner or it help to small the big picture to small after adding the hight and width)*/
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.choices{
+    display: flex;            /*it is used to make the horizontal content to vertical or vertical to horizontal  or if the image gackgroundcolor is not in center it make it center*/
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+   
+}
+
+#user-score, #computer-score{                  /* or we can write saperately like #user-score{} & #computer-score{}*/
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    
+    background-color: hotpink;
+    color:black;
+    font-size: 2rem;
+    display: inline;        /* it is used to display the line only the parts we write not more than that*/
+   padding: 1rem;
+   border-radius: 1rem;
+   cursor: pointer;
+}
